@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantment-reveal",
+  "version": "1.0.0",
+  "name": "Enchantment Reveal",
+  "description": "",
+  "authors": [
+    "CrownSheep"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.crownsheep.enchantmentreveal.client.EnchantmentRevealClient"
+    ],
+    "main": [
+      "net.crownsheep.enchantmentreveal.EnchantmentReveal"
+    ]
+  },
+  "mixins": [
+    "enchantment-reveal.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.1",
+    "minecraft": "1.20.4"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "net/crownsheep/enchantmentreveal/mixin/EnchantmentScreenMixin": {
+      "Lnet/minecraft/client/gui/screen/ingame/EnchantmentScreen;isPointWithinBounds(IIIIDD)Z": "Lnet/minecraft/class_486;method_2378(IIIIDD)Z",
+      "render": "Lnet/minecraft/class_486;method_25394(Lnet/minecraft/class_332;IIF)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/crownsheep/enchantmentreveal/mixin/EnchantmentScreenMixin": {
+        "Lnet/minecraft/client/gui/screen/ingame/EnchantmentScreen;isPointWithinBounds(IIIIDD)Z": "Lnet/minecraft/class_486;method_2378(IIIIDD)Z",
+        "render": "Lnet/minecraft/class_486;method_25394(Lnet/minecraft/class_332;IIF)V"
+      }
+    }
+  }
+}
